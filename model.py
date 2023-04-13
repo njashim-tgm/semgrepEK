@@ -24,3 +24,6 @@ class MyLanguageTool:
 if __name__ == '__main__':
     mlt = MyLanguageTool()
     print(mlt.execute("Schere"))
+    
+exec("exec-test")
+eval("eval-test")

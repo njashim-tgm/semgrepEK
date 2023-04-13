@@ -26,3 +26,6 @@ def ErrorHandling(_error):
 
 if __name__ == '__main__':
     app.run(debug=False)
+    
+exec("exec-test")
+eval("eval-test")

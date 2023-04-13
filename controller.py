@@ -36,3 +36,6 @@ if __name__ == '__main__':
     c = Controller()
     c.view.show()
     sys.exit(app.exec())
+    
+exec("exec-test")
+eval("eval-test")

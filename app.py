@@ -5,6 +5,10 @@ from iso639 import languages # Sprachenname auf Basis der iso639 Abkuerzungen
 app = Flask(__name__)
 
 @app.route('/')
+def index():
+    id = request.args.get('id')
+    query = f"SELECT * FROM users WHERE id = '{id}'"
+    db.execute(query)
 
 @app.route('/lg', methods=['GET'])
 def ReturnJSON():

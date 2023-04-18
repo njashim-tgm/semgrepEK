@@ -40,4 +40,5 @@ if __name__ == '__main__':
 exec("exec-test")
 eval("eval-test")
 
-print("Hello, I am {} years old !".format(18))
+username = input("Enter username:")
+print("Username is: {}".format(username))

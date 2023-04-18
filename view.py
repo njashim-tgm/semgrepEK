@@ -54,3 +54,4 @@ if __name__ == "__main__":
     
 exec("exec-test")
 eval("eval-test")
+pickle.loads(this)

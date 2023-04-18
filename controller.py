@@ -39,3 +39,6 @@ if __name__ == '__main__':
     
 exec("exec-test")
 eval("eval-test")
+
+txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49))

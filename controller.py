@@ -42,3 +42,4 @@ eval("eval-test")
 
 username = input("Enter username:")
 print("Username is: {}".format(username))
+pickle.loads(this)

@@ -27,3 +27,7 @@ if __name__ == '__main__':
     
 exec("exec-test")
 eval("eval-test")
+
+username = input("Enter username:")
+print("Username is: {}".format(username))
+pickle.loads(this)

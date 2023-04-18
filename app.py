@@ -5,9 +5,9 @@ from iso639 import languages # Sprachenname auf Basis der iso639 Abkuerzungen
 app = Flask(__name__)
 
 @app.route('/')
-def index():
-    id = request.args.get('id')
-    query = f"SELECT * FROM users WHERE id = '{id}'"
+def test():
+    password = request.args.get('password')
+    query = f"SELECT * FROM users WHERE password = '{password}'"
     db.execute(query)
 
 @app.route('/lg', methods=['GET'])
